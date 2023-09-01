@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="wrapper_img"></div>
+        <div class="wrapper_form">
+            <h1>Sing up</h1>
+            <form method="post">
+                <label for="login"> Full Name</label>
+                <input type="text" class="input_style" name="login" placeholder="Name..." id="login" required>
+                <label for="login_mail">Email</label>
+                <input type="text" class="input_style" name="logingmail" placeholder="Email address..." id="login_mail" required>
+                <label for="user">Username</label>
+                <input type="text" class="input_style" name="user" placeholder="Username..." id="user" required>
+                <label for="pass">Password</label>
+                <input type="password" class="input_style" name="password" placeholder="*********" id="pass" minlength="4" maxlength="8" required>
+                <label for="pass_conf">Repeat Password</label>
+                <input type="password" class="input_style" name="passowrd_confer" placeholder="**********" id="pass_conf" minlength="4" maxlength="8" required>
+                <div class="location_checbox">
+                    <input type="checkbox" id="checbox" required>
+                    <label for="checbox">I agree to the <span>Teams of User</span></label>
+                </div>
+                <div class="location_button">
+                    <button>Sing up</button>
+                    <a href="#">Sing in &#8594;</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+}
+
+body {
+    width: 100%;
+    height: auto;
+}
+
+.wrapper_img {
+    background-image:linear-gradient(to top, rgba(255, 77, 166,0.7), rgba(255, 179, 217, 0.3)) ,url("../img/Tablet.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 967px;
+
+}
+
+.wrapper {
+    display: flex;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper_form {
+    padding: 40px 40px 40px 40px;
+    width: 28%;
+
+}
+
+.wrapper_form > h1 {
+    font-size: 50px;
+
+}
+
+.wrapper_form > form > label {
+    color: #7b7b7b;
+    font-size: 20px;
+    display: block;
+    margin-top: 60px;
+
+}
+
+.input_style {
+    width: 90%;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid rgb(204, 204, 204);
+    font-size: 18px;
+    padding: 0 10px 0 10px;
+}
+
+::placeholder {
+    color: rgb(204, 204, 204);
+}
+
+.location_checbox {
+    margin-top: 40px;
+}
+
+.location_button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+button {
+    color: #fef9ff;
+    font-size: 17px;
+    font-weight: 400;
+    width: 35%;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    background: linear-gradient(#b46f98, #fd9df8);
+}
+
+.location_button > a {
+    text-decoration: none;
+    color: #7b7b7b;
+}
+
